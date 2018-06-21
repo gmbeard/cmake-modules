@@ -17,7 +17,7 @@ macro(InstallDependencies)
         WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/setup/build
     )
     execute_process(
-        COMMAND ${CMAKE_COMMAND} --build . --clean-first
+        COMMAND ${CMAKE_COMMAND} --build .
         WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/setup/build
     )
 endmacro()
